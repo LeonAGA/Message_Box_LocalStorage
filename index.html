@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="group">
+        <div class="container">
+            <h1>Messaging</h1>
+            <div class="row">
+                <div id = "typeSection">
+                    <label for="message">Message:</label>
+                    <form action="" id="typeForm">
+                            <label for="message"></label>
+                            <textarea id="messageBox" placeholder="Type a message."></textarea>
+                            <p class = "character">0/280.</p>
+                            <input type="submit" id = "addButton" value="Submit">
+                            <p class ="advertisement">"The maximum lenght for the message is 280 characters."</p>
+                    </form>
+                </div>
+                <div id ="showSection">
+                    <label>Messages</label>
+                    <ul id="messageList"></ul>
+                </div>
+            </div>
+        </div>
+    </div> <!--#group-->
+    <footer id ="footer">&copy; Leon A.G.A.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
