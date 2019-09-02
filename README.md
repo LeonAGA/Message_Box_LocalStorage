@@ -1,10 +1,3 @@
-# Message_Box_LocalStorage-
-
-
-The use of Local Storage using a simple message system,  Type messages,
-don't delete them and recharge or go back the browser, they will be there in the miniature and in the pen itself when you'll return.
-
-
 <p align="center">
    <img alt="SigmaΣCode" src="/img/capture/SigmaΣCode.png">
 </p>
